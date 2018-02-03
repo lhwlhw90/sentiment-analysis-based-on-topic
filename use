@@ -1,0 +1,22 @@
+lhw@lhw-Ideapad-S110:~/code/基于主题的文本情感分析$ python3 sentimental.py 
+/usr/local/lib/python3.5/dist-packages/sklearn/cross_validation.py:41: DeprecationWarning: This module was deprecated in version 0.18 in favor of the model_selection module into which all the refactored classes and functions are moved. Also note that the interface of the new CV iterators are different from that of this module. This module will be removed in 0.20.
+  "This module will be removed in 0.20.", DeprecationWarning)
+/usr/local/lib/python3.5/dist-packages/sklearn/grid_search.py:42: DeprecationWarning: This module was deprecated in version 0.18 in favor of the model_selection module into which all the refactored classes and functions are moved. This module will be removed in 0.20.
+  DeprecationWarning)
+Building prefix dict from the default dictionary ...
+Dumping model to file cache /tmp/jieba.cache
+Loading model cost 13.686 seconds.
+Prefix dict has been built succesfully.
+ornginal:
+0.953795121867
+             precision    recall  f1-score   support
+
+       null      0.968     0.981     0.975     45968
+          n      0.934     0.894     0.914      1770
+          t      0.783     0.616     0.690      3017
+          m      0.971     0.961     0.966       283
+          p      0.907     0.938     0.922      3124
+
+avg / total      0.953     0.955     0.954     54162
+
+
